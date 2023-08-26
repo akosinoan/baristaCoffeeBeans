@@ -33,7 +33,8 @@ const Navbar = () =>{
     return(
         <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div className="container px-5">
-            <Link className="navbar-brand" onClick={handleClick} href="#home"><Image
+            <Link className="navbar-brand" onClick={handleClick} href="#home">
+    <img
       src="/BaristaLogo.png"
       width={128}
       height={88}

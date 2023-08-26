@@ -1,4 +1,4 @@
-import Image from "next/image";
+import img from "next/image";
 const Contact = () =>{
 
     return(
@@ -17,7 +17,7 @@ const Contact = () =>{
                             <div className="card-body p-4">
                                 <div className="d-flex">
                                     <div className="flex-shrink-0">
-                                    <Image alt="ig logo" width={50}height={50} src="/IG_logo.png"></Image></div>
+                                    <img alt="ig logo" width={50}height={50} src="/IG_logo.png"/></div>
                                     <div className="ms-4">
                                         <div className="mb-1 small text-muted"> Instagram</div>
                                        
@@ -32,7 +32,7 @@ const Contact = () =>{
                             <div className="card-body p-4">
                                 <div className="d-flex">
                                     <div className="flex-shrink-0">
-                                    <Image alt="fb logo" width={50}height={50} src="/fb-icon.png"></Image></div>
+                                    <img alt="fb logo" width={50}height={50} src="/fb-icon.png"></img></div>
                                     <div className="ms-4">
                                         <div className="mb-1 small text-muted">Facebook</div>
                                         
@@ -46,7 +46,7 @@ const Contact = () =>{
                                 <div className="card-body p-4">
                                     <div className="d-flex">
                                         <div className="flex-shrink-0">
-                                        <Image alt="shopee logo" width={50}height={50} src="/Shopee_logo.png"></Image></div>
+                                        <img alt="shopee logo" width={50}height={50} src="/Shopee_logo.png"></img></div>
                                         <div className="ms-4">
                                             <div className="mb-1 small text-muted"> Shopee</div>
                                         
@@ -61,7 +61,7 @@ const Contact = () =>{
                                 <div className="card-body p-4">
                                     <div className="d-flex">
                                         <div className="flex-shrink-0">
-                                        <Image alt="gmail logo" width={109}height={50} src="/gmail_logo.png"></Image></div>
+                                        <img alt="gmail logo" width={109}height={50} src="/gmail_logo.png"></img></div>
                                         <div className="ms-4">
                                             
                                         </div>
