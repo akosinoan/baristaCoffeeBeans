@@ -17,9 +17,7 @@ const Story = () =>{
                 <div className="carousel-item active">
                     <img src="/story/baristaStory-1.png" className="d-block w-100" alt="..."/>
                 </div>
-                <div className="carousel-item">
-                 <img src="/story/baristaStory-1.png" className="d-block w-100" alt="..."/>
-                </div>
+               
                 <div className="carousel-item">
                  <img src="/story/baristaStory-2.png" className="d-block w-100" alt="..."/>
                 </div>
